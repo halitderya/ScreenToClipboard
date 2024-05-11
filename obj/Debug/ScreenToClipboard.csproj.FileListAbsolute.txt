@@ -1,0 +1,29 @@
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\Interop.MODI.dll
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.csproj.ResolveComReference.cache
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\CaptureArea.baml
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\CaptureArea.g.cs
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\MainWindow.g.cs
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\App.g.cs
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard_MarkupCompile.cache
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard_MarkupCompile.lref
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.csprojResolveAssemblyReference.cache
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\bin\Debug\ScreenToClipboard.exe.config
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\bin\Debug\ScreenToClipboard.exe
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\bin\Debug\ScreenToClipboard.pdb
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\MainWindow.baml
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.g.resources
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.Properties.Resources.resources
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.csproj.GenerateResource.Cache
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.exe
+C:\Users\halit.derya\Desktop\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.pdb
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\bin\Debug\ScreenToClipboard.exe.config
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.csproj.ResolveComReference.cache
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.exe
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.pdb
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard.csprojResolveAssemblyReference.cache
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\CaptureArea.baml
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\CaptureArea.g.cs
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\MainWindow.g.cs
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\App.g.cs
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard_MarkupCompile.cache
+C:\Users\halit.derya\Desktop\Google Drive\Developer\Program Yedekleri\DOTNET PROJELERI\system_tools\deneme1\ScreenToClipboard\ScreenToClipboard\obj\Debug\ScreenToClipboard_MarkupCompile.lref

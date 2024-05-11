@@ -1,0 +1,83 @@
+﻿<Window x:Class="ScreenToClipboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreenToClipboard"
+        mc:Ignorable="d"
+        Title="Options"  Height="500" Width="600" Loaded="Window_Loaded"  IsVisibleChanged="Window_IsVisibleChanged" StateChanged="Window_StateChanged" Closing="Window_Closing">
+    <Grid x:Name="Grid1" Height="500" Width="600" Margin="0,0,0,0" VerticalAlignment="Top">
+        <DockPanel LastChildFill="True" x:Name="Dock3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="600" Height="450" Margin="0,0,0,0">
+            <Grid x:Name="gridocrsecimi" IsEnabled="True" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,200,0,0">
+                <Label x:Name="firstocr" x:FieldModifier="public" Height="28" Content="" HorizontalAlignment="Left" Margin="200,4,0,0" VerticalAlignment="Top" Width="100" BorderThickness="1" BorderBrush="Black" MouseLeftButtonDown="firstocr_MouseLeftButtonDown" IsEnabled="False" />
+                <CheckBox x:Name="firstocrcb" Checked="cbchecked" Unchecked="mycbevent" Content="First OCR Area" HorizontalAlignment="Left" FontSize="14" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,10,0,0" />
+                <Label x:Name="secondocr" Height="28" Content="" HorizontalAlignment="Left" Margin="200,34,0,0" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Width="100" MouseLeftButtonDown="secondocr_MouseLeftButtonDown" IsEnabled="False"/>
+                <CheckBox x:Name="secondocrcb"   Checked="cbchecked" Unchecked="mycbevent" Content="Second OCR Area" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" VerticalContentAlignment="Center" Margin="10,40,0,0"/>
+                <Label x:Name="thirdocr" Height="28" Content="" HorizontalAlignment="Left" BorderThickness="1" BorderBrush="Black" Margin="200,64,0,0" VerticalAlignment="Top" Width="100" MouseLeftButtonDown="thirdocr_MouseLeftButtonDown" IsEnabled="False"/>
+                <CheckBox x:Name="thirdocrcb"  Checked="cbchecked" Unchecked="mycbevent" Content="Third OCR Area" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" VerticalContentAlignment="Center" Margin="10,70,0,0"/>
+                <Label x:Name="fourthocr" Height="28" Content="" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Margin="200,94,0,0" VerticalAlignment="Top" Width="100" MouseLeftButtonDown="fourthocr_MouseLeftButtonDown" IsEnabled="False"/>
+                <CheckBox x:Name="fourthocrcb"  Checked="cbchecked" Unchecked="mycbevent" Content="Fourth OCR Area" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" VerticalContentAlignment="Center"  Margin="10,100,0,0" />
+                <Label x:Name="fifthocr" Height="28"  BorderThickness="1" BorderBrush="Black" Content="" HorizontalAlignment="Left" Margin="200,124,0,0" VerticalAlignment="Top" Width="100" MouseLeftButtonDown="fifthocr_MouseLeftButtonDown" IsEnabled="False"/>
+                <CheckBox x:Name="fifthocrcb"  Checked="cbchecked" Unchecked="mycbevent" Content="Fifth OCR Area" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" VerticalContentAlignment="Center" Margin="10,130,0,0"/>
+
+
+            </Grid>
+            <Grid VerticalAlignment="Top" IsEnabled="True" x:Name="griddelimiter" Margin="10,200,0,0" HorizontalAlignment="Right">
+                <Label x:Name="label1" FontWeight="Bold" FontSize="14" Content="Delimiter" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0"/>
+
+                <ListBox x:Name="listBox" BorderThickness="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,35,0,0" >
+                    <RadioButton FontSize="14" Content="Seperated ( No Delimiter)"/>
+                    <RadioButton FontSize="14" Content="Comma" />
+                    <RadioButton FontSize="14" Content="Score" />
+                    <RadioButton FontSize="14" Content="Underscore"/>
+                    <RadioButton FontSize="14" Content="Hash"/>
+
+                </ListBox>
+
+
+            </Grid>
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Width="600" Height="200" Margin="-500,10,0,0">
+
+                <RadioButton x:Name="cbscrshoot" Checked="screenshotchked" FontSize="14" Content="Screenshot" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" />
+                <RadioButton x:Name="cbpredetermined" Checked="predeterminedchked" FontSize="14" Content="Predetermined" IsChecked="False" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label" FontSize="14" FontWeight="Bold" Content="Capture Mode" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="label2"  FontSize="14" FontWeight="Bold" Content="Hotkey" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="label3" FontSize="14" FontWeight="Bold" Content="OCR Language" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top"/>
+
+                <ListBox x:Name="listBox1" BorderThickness="0" HorizontalAlignment="Left" Margin="160,49,0,0" VerticalAlignment="Top" >
+
+                    <RadioButton x:Name="ctrlkey" FontSize="14" Content="CTRL" IsChecked="True"/>
+                    <RadioButton x:Name="shiftkey" FontSize="14" Content="SHIFT"/>
+                </ListBox>
+                <Label x:Name="HKL" Content="+" FontWeight="Bold" FontSize="18" VerticalAlignment="Top" Margin="225,50,0,0"/>
+                <ListBox x:Name="Listbox2" BorderThickness="0" HorizontalAlignment="Left" Margin="250,49,0,0" VerticalAlignment="Top" >
+                    <RadioButton x:Name="Printscreenkey"  FontSize="14" Content="Print Screen" IsChecked="True"/>
+                    <RadioButton x:Name="F10Key" FontSize="14" Content="F10"/>
+                </ListBox>
+                <ListBox x:Name="Listboxlang" BorderThickness="0"  HorizontalAlignment="Left" Margin="400,49,0,0" VerticalAlignment="Top" >
+                    <RadioButton x:Name="cbeng" Checked="langcbchecked" FontSize="14" Content="English"/>
+                    <RadioButton x:Name="cbfre" Checked="langcbchecked" FontSize="14" Content="French"/>
+                    <RadioButton x:Name="cbtur" Checked="langcbchecked" FontSize="14" Content="Turkish"/>
+                    <RadioButton x:Name="cbsys" Checked="langcbchecked" FontSize="14" Content="System Lang"/>
+                </ListBox>
+
+
+            </Grid>
+            <Button x:Name="button"  Content="Save &amp; Hide" VerticalAlignment="Bottom" Background="Turquoise" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="-600,0,0,0" Click="button_Click" />
+
+
+
+
+
+
+
+        </DockPanel>
+
+    </Grid>
+
+
+
+
+
+
+</Window>
